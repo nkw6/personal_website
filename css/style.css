@@ -1,0 +1,98 @@
+body{
+    background-color: #436F97;
+    font-family: Arial;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+#navbar{
+    background-color: none;
+    color:white;
+    text-align: center;
+    margin-top:80px;
+    margin-bottom: 50px;
+}
+#navbar ul{
+    margin:0;
+    list-style: none;
+    align-items: center;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin:50px;
+}
+#main{
+    border-radius: 25px;
+    margin: auto;
+    width: 950px;
+    height: 520px;
+    background-color: white;
+
+}
+
+#main-left{
+    float:left;
+    width:45%;
+    margin-left:65px;
+}
+#self-photo{
+    margin-top: 30px;
+}
+#social-media{
+    margin-left:30px;
+}
+#social-media a img{
+    display:inline;
+    width:40px;
+    margin-right: 30px;
+    margin-top:30px;
+}
+#email{
+    margin-top: 50px;
+    margin-left:30px
+}
+#main-right{
+    float:left;
+    width:30%;
+}
+#about-me{
+    margin-top:35px;
+}
+#about-me p{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+#quote{
+    margin-top:50px;
+    color:#A49494;
+}
+#phone{
+    margin-top:110px;
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 225px;
+    background:#FBEFE6;
+    z-index: -1;
+}
